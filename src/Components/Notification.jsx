@@ -26,11 +26,13 @@ const Notification = ({
 
   return (
     <main>
-      <button
+      <div
         className={`mt-2.5 flex gap-3 rounded-md p-4 transition-colors duration-300 md:px-5 md:py-4 ${
           !isRead && "bg-VeryLightGrayishBlue"
         }`}
         onClick={handleClick}
+        tabIndex={0}
+        role="button"
       >
         <div className="lg:basis-1/12">
           <img src={avatar} alt="avatar" className="w-11" />
@@ -72,7 +74,7 @@ const Notification = ({
             </div>
           )}
         </div>
-      </button>
+      </div>
     </main>
   );
 };
