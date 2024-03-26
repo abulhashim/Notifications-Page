@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [frontendmentor.io/solutions/notifications-page/](https://www.frontendmentor.io/solutions/notifications-page/)
+- Solution URL: [frontendmentor.io/solutions/notifications-page/](https://www.frontendmentor.io/solutions/notifications-page-z3_JF-v-4-)
 - Live Site URL: [abulhashim.github.io/Notifications-Page](https://abulhashim.github.io/Notifications-Page/)
 
 ## My process
