@@ -1,8 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
-import { useMyContext } from "../App";
 
-function Header() {
-  const { state, setState } = useMyContext();
+function Header({ state, setState }) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -22,10 +21,7 @@ function Header() {
     <>
       <header className="mb-6 flex items-center">
         <h1 className="text-VerDarkBlue text-2xl font-bold">Notifications</h1>
-        <div
-          aria-labelledby="number of unread notifications"
-          className="ml-2 rounded-md bg-Blue px-2.5 font-medium text-White"
-        >
+        <div className="ml-2 rounded-md bg-Blue px-2.5 font-medium text-White">
           {count}
         </div>
         <button
